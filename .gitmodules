@@ -1,3 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "pcsvn.github.io"]
+	path = pcsvn.github.io
+	url = https://github.com/pcsvn/pcsvn.github.io.git
