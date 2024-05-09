@@ -29,10 +29,14 @@ git submodule add git@github.com:pcsvn/pcsvn.github.io.git
 
 Lab Mình làm tại thư mục D:\GitHubDeskTop\quickstart thông qua VS Code
 Laptop ở nhà dùng VS CODE và thay bằng lệnh 
+
 'git submodule add https://github.com/pcsvn/pcsvn.github.io.git'
 
+** Tài liệu tham khảo **
 https://tw-docs.com/docs/static-site-generators/hugo-install/
 
 https://www.itnota.com/setup-visual-studio-code-hugo-static-site-generator/
 
 https://www.youtube.com/watch?v=7SHqBNRP9bQ&ab_channel=GetIntoGameDev
+
+https://codecungtui.github.io/tao-blog-don-gian-voi-hugo-va-github
