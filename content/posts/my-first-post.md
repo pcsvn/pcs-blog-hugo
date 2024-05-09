@@ -17,6 +17,9 @@ git submodule add git@github.com:<username>/<username>.github.io.git
 
 
 Myconfig
+https://github.com/pcsvn/pcs-blog-hugo - Private
+https://github.com/pcsvn/pcsvn.github.io - Public
+==>
 1. pcs-blog-hugo
 2. pcsvn.github.io
 => 
@@ -25,3 +28,11 @@ git clone git@github.com:pcsvn/pcs-blog-hugo.git
 git submodule add git@github.com:pcsvn/pcsvn.github.io.git
 
 Lab Mình làm tại thư mục D:\GitHubDeskTop\quickstart thông qua VS Code
+Laptop ở nhà dùng VS CODE và thay bằng lệnh 
+'git submodule add https://github.com/pcsvn/pcsvn.github.io.git'
+
+https://tw-docs.com/docs/static-site-generators/hugo-install/
+
+https://www.itnota.com/setup-visual-studio-code-hugo-static-site-generator/
+
+https://www.youtube.com/watch?v=7SHqBNRP9bQ&ab_channel=GetIntoGameDev

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "D:/GitHubDeskTop/quickstart",
+	"sourceRoot": "C:/GithubDesktop/pcs-blog-hugo",
 	"sources": [
 		"ananke/css/main.css"
 	],
