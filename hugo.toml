@@ -1,5 +1,5 @@
 baseURL = 'https://pcsvn.github.io'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'LoveIt'
 publishdir = "pcsvn.github.io"
