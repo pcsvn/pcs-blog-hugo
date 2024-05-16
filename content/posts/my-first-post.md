@@ -42,3 +42,6 @@ https://www.youtube.com/watch?v=7SHqBNRP9bQ&ab_channel=GetIntoGameDev
 https://codecungtui.github.io/tao-blog-don-gian-voi-hugo-va-github
 ## Themes 
 https://github.com/dillonzq/LoveIt
+
+Update Big Repo from Private to Public
+sau khi thay đổi có thể chỉnh bài viết từ trình duyệt web!
