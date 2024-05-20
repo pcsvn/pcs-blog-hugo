@@ -52,7 +52,7 @@
 				"bungcip.better-toml",
 				"davidanson.vscode-markdownlint",
 				"dbaeumer.vscode-eslint",
-        "eamodio.gitlens",
+        		"eamodio.gitlens",
 				"GitHub.vscode-pull-request-github",
 				"hediet.vscode-drawio",
 				"mushan.vscode-paste-image",
