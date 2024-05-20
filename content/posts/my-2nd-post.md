@@ -7,3 +7,5 @@ draft = false
 
 **What Happen?**
 ![alt text](image.png)
+
+In Power Shell đi đến thư mục con rồi chạy lệnh Push từ local lên Github
