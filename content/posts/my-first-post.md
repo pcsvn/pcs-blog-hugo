@@ -5,9 +5,7 @@ draft = false
 +++
 ## Introduction
 
-This is **bold** text, and this is *emphasized* text.
-
-Cài đặt repository
+**Cài đặt repository**
 Đối với các trang blog xây dựng bằng Jekyll thì có lẽ bạn chỉ cần duy nhất một repository như bước 2 là đủ ( tùy một số theme yêu cầu cài plugin mà github không hỗ trợ thì phải làm hơi khác). Nhưng với trang blog xây dựng bằng Hugo thì bạn cần thêm một repository nữa (cái này tên gì cũng được vì không được public ra ngoài). Như vậy chúng ta sẽ tạo 2 repository với mục đích như sau: 
 1. <blog-name>-hugo (tạm gọi là repo lớn) : mục tiêu cao cả là lưu trữ toàn bộ source code của bạn. 
 2. <github username>.github.io (tạm gọi là repo nhỏ) : nhiệm vụ lưu trữ những thứ được generate ra và host trang blog của bạn. Tạo xong hai repository thì bạn clone chúng về máy tính, tuy nhiên bạn cần chú ý là đặt repo github.io làm submodule của repo lớn, để khi chúng ta update repo nhỏ thì repo lớn tự động update:
@@ -42,3 +40,6 @@ https://www.youtube.com/watch?v=7SHqBNRP9bQ&ab_channel=GetIntoGameDev
 https://codecungtui.github.io/tao-blog-don-gian-voi-hugo-va-github
 ## Themes 
 https://github.com/dillonzq/LoveIt
+
+Update Big Repo from Private to Public
+sau khi thay đổi có thể chỉnh bài viết từ trình duyệt web!
