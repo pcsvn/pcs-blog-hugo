@@ -1,0 +1,4 @@
+- name: Checkout submodules main branch
+  run: |
+    git config --global --add url.https://github.com/.insteadOf git@github.com:
+    git submodule update --init --recursive --remote    
