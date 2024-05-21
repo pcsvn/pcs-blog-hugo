@@ -1,4 +1,7 @@
-- name: Checkout submodules main branch
-  run: |
-    git config --global --add url.https://github.com/.insteadOf git@github.com:
-    git submodule update --init --recursive --remote    
+name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.PAT }}
+          repository: pcsvn/pcs-blog-hugo/
+          event-type: my-event
+          client-payload: '{"sha": "${{ github.sha }}"}'
