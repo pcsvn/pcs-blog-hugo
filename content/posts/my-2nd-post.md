@@ -6,6 +6,9 @@ draft = false
 ## Introduction
 
 **What Happen?**
-![alt text](image.png)
+{{ $image := .Resources.Get "image.png" }}
 
 In Power Shell đi đến thư mục con rồi chạy lệnh Push từ local lên Github
+
+{{ $image := resources.GetRemote "https://gohugo.io/img/hugo-logo.png" }}
+
