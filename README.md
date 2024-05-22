@@ -14,3 +14,32 @@
 	"postStartCommand": "hugo server"
 }
 ```
+Tree
+.
+├── archetypes
+├── content
+│   └── posts
+│       ├── about.md
+│       ├── image.png
+│       ├── my-2nd-post.md
+│       └── my-first-post.md
+├── hugo.toml
+├── pcsvn.github.io ### This folder is submodule !!!
+│   ├── index.html
+│   ├── index.xml
+│   ├── page
+│   ├── posts
+│   │   ├── about
+│   │   ├── image.png
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── my-2nd-post
+│   │   ├── my-first-post
+│   │   └── page
+│   ├── sitemap.xml
+│   ├── svg
+│   └── tags
+├── README.md
+├── resources
+└── themes
+    └── LoveIt
