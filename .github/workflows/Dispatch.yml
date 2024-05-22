@@ -1,16 +1,19 @@
-name: Dispatch Update Submodule
+name: Trigger blog to build
+
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
 jobs:
-  dispatch:
+  trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Dispatch update to Git Blog Project
-        uses: peter-evans/repository-dispatch@v3
+      - name: Trigger blog build
+        uses: peter-evans/repository-dispatch@v1
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: pcsvn/pcsvn.github.io
-          event-type: update-submodule
+          event-type: update
           
