@@ -1,7 +1,15 @@
-        name: Repository Dispatch
+name: Dispatch Update Submodule
+on:
+  push:
+    branches:
+      - main
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch update to Git Blog Project
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT }}
-          repository: pcsvn/pcs-blog-hugo
-          event-type: my-event
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+          repository: pcsvn/pcsvn.github.io
+          event-type: update-submodule
