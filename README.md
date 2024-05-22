@@ -14,7 +14,7 @@
 	"postStartCommand": "hugo server"
 }
 ```
-Tree
+Tree Folder
 .
 ├── archetypes
 ├── content
