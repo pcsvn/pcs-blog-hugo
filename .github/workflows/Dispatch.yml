@@ -10,8 +10,6 @@ jobs:
       - name: Dispatch update to Git Blog Project
         uses: peter-evans/repository-dispatch@v3
         with:
-          GITHUB_TOKEN: ${{ github.token }}
-          token: ${{ secrets.PAT }}
           repository: pcsvn/pcsvn.github.io
           event-type: update-submodule
           
