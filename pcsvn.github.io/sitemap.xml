@@ -2,10 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:35277/posts/about/</loc><lastmod>2024-05-15T07:41:45&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:35277/</loc><lastmod>2024-05-15T07:41:45&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:35277/posts/</loc><lastmod>2024-05-15T07:41:45&#43;00:00</lastmod></url><url>
-            <loc>http://localhost:35277/posts/my-2nd-post/</loc><lastmod>2024-05-09T15:50:29&#43;07:00</lastmod></url><url>
-            <loc>http://localhost:35277/posts/my-first-post/</loc><lastmod>2024-05-09T15:50:29&#43;07:00</lastmod></url><url>
-            <loc>http://localhost:35277/categories/</loc></url><url>
-            <loc>http://localhost:35277/tags/</loc></url></urlset>
+            <loc>http://localhost:39807/posts/about/</loc><lastmod>2024-05-15T07:41:45&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:39807/</loc><lastmod>2024-05-15T07:41:45&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:39807/posts/</loc><lastmod>2024-05-15T07:41:45&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:39807/posts/my-2nd-post/</loc><lastmod>2024-05-09T15:50:29&#43;07:00</lastmod></url><url>
+            <loc>http://localhost:39807/posts/my-first-post/</loc><lastmod>2024-05-09T15:50:29&#43;07:00</lastmod></url><url>
+            <loc>http://localhost:39807/categories/</loc></url><url>
+            <loc>http://localhost:39807/tags/</loc></url></urlset>

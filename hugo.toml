@@ -3,3 +3,21 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'LoveIt'
 publishdir = "pcsvn.github.io"
+
+
+
+[module]
+  noProxy = 'none'
+  noVendor = ''
+  private = '*.*'
+  proxy = 'direct'
+  replacements = ''
+  vendorClosest = false
+  workspace = 'off'
+
+[module.hugoVersion]
+  extended = true
+  min = "0.110.0"
+[[module.imports]]
+  path = "github.com/google/docsy"
+  disable = false
